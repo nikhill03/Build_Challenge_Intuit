@@ -31,7 +31,7 @@ It demonstrates clean code design, multithreading, CSV ingestion, functional agg
 
 Implement a **bounded queue** and **thread-safe producer-consumer architecture** using Python concurrency.
 
-### 🧠 Key Skills Demonstrated
+### Key Skills Demonstrated
 
 - Multithreading using `threading.Thread`
 - Safe condition-based synchronization (`wait()`, `notify_all()`)
@@ -53,13 +53,13 @@ Implement a **bounded queue** and **thread-safe producer-consumer architecture**
 
 ---
 
-### ▶️ Run Assignment 1
+### Run Assignment 1
 
 ```bash
 python -m assignments.assignment1_producer_consumer
 ```
 
-### 🖥 Expected Output
+### Expected Output
 
 ```bash
 Source data:      [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -67,7 +67,7 @@ Destination data: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 Transfer successful: True
 ```
 
-### 🧪 Run Assignment 1 Unit Tests
+###  Run Assignment 1 Unit Tests
 
 ```bash
 python -m unittest tests.test_assignment1
@@ -83,7 +83,7 @@ Process and analyze a structured CSV sales dataset to compute business insights 
 
 ---
 
-## 📦 Dataset Details
+##  Dataset Details
 
 📁 File: `data/sample_sales_data.csv`  
 📌 Total Rows: 200
@@ -100,7 +100,7 @@ Process and analyze a structured CSV sales dataset to compute business insights 
 
 ---
 
-## 🧮 Analytics Functions Implemented
+##  Analytics Functions Implemented
 
 | Method                         | Purpose                             |
 | ------------------------------ | ----------------------------------- |
@@ -113,13 +113,13 @@ Process and analyze a structured CSV sales dataset to compute business insights 
 
 ---
 
-## ▶️ Run Assignment 2
+##  Run Assignment 2
 
 ```bash
 python -m assignments.assignment2_sales_analysis
 ```
 
-## 🖥 Sample Output Snapshot
+##  Sample Output Snapshot
 
 ```bash
 Loaded records: 200
@@ -146,13 +146,13 @@ Average order value: 5429.11
 
 ```
 
-## 🧪 Run Assignment 2 Unit Tests
+##  Run Assignment 2 Unit Tests
 
 ```bash
 python -m unittest tests.test_assignment2
 ```
 
-# 🛠 Setup Instructions
+# Setup Instructions
 
 ## Create Virtual Environment
 
