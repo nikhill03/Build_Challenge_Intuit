@@ -33,7 +33,6 @@ Implement a **bounded queue** and **thread-safe producer-consumer architecture**
 ### Key Skills Demonstrated
 =======
 ### 🧩 Workflow Assignment 1 — Producer–Consumer System (Flow)
->>>>>>> 4e3711f (Final Submission commit)
 
 - A list of numbers is created as the **source data**
 - The **Producer thread**:
@@ -85,7 +84,6 @@ Process and analyze a structured CSV sales dataset to compute business insights 
 
 ---
 
-<<<<<<< HEAD
 ##  Dataset Details
 =======
 ### 🧩 Workflow Assignment 2 — Sales Data Analysis System
