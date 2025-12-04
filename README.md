@@ -84,8 +84,6 @@ Process and analyze a structured CSV sales dataset to compute business insights 
 
 ---
 
-##  Dataset Details
-=======
 ### 🧩 Workflow Assignment 2 — Sales Data Analysis System
 
 - Loads data from CSV using Python’s **`csv` API**
@@ -105,8 +103,7 @@ Process and analyze a structured CSV sales dataset to compute business insights 
 
 ---
 
-## 📦 Dataset Details
->>>>>>> 4e3711f (Final Submission commit)
+### 📦 Dataset Details
 
 📁 File: `data/sample_sales_data.csv`  
 📌 Total Rows: 200
