@@ -31,25 +31,29 @@ It demonstrates clean code design, multithreading, CSV ingestion, functional agg
 
 Implement a **bounded queue** and **thread-safe producer-consumer architecture** using Python concurrency.
 
+<<<<<<< HEAD
 ### Key Skills Demonstrated
+=======
+### 🧩 Workflow Assignment 1 — Producer–Consumer System (Flow)
+>>>>>>> 4e3711f (Final Submission commit)
 
-- Multithreading using `threading.Thread`
-- Safe condition-based synchronization (`wait()`, `notify_all()`)
-- Avoiding race conditions and deadlocks
-- Sentinel-based shutdown strategy
-- End-to-end correctness validation using tests
+- A list of numbers is created as the **source data**
+- The **Producer thread**:
+  - Reads one item at a time from the source list
+  - Inserts each item into a **bounded shared queue**
+  - After finishing input, pushes a **sentinel value** to indicate completion
+- The **Consumer thread**:
+  - Continuously removes items from the queue
+  - Appends them into a **destination list**
+  - Stops only when it receives the sentinel value
+- The program verifies:
+  - The destination list contains all original items
+  - The order is preserved
+- Final message printed: **Transfer successful**
 
----
-
-### 📌 Features
-
-| Feature                  | Description                                     |
-| ------------------------ | ----------------------------------------------- |
-| Custom Bounded Queue     | Blocks producer when full & consumer when empty |
-| Thread-Safe Data Sharing | Controlled access via `Condition` lock          |
-| Order Preservation       | Output order == input order                     |
-| Graceful Thread Exit     | Via sentinel object                             |
-| Unit Tests Included      | Automated reliability checks                    |
+✔ Thread-safe data flow  
+✔ No race conditions  
+✔ No data loss or duplication
 
 ---
 
@@ -83,7 +87,30 @@ Process and analyze a structured CSV sales dataset to compute business insights 
 
 ---
 
+<<<<<<< HEAD
 ##  Dataset Details
+=======
+### 🧩 Workflow Assignment 2 — Sales Data Analysis System
+
+- Loads data from CSV using Python’s **`csv` API**
+- Converts each row into a **SalesRecord object**
+- Performs multiple analytical calculations:
+  - Total revenue across all rows
+  - Units sold per product
+  - Revenue comparison by region
+  - Sales performance by salesperson
+  - Top N revenue-generating products
+  - Average revenue per order
+- Outputs results in a **readable and structured report format**
+
+✔ Functional programming approach  
+✔ Aggregation and grouping operations  
+✔ Stream-style data processing
+
+---
+
+## 📦 Dataset Details
+>>>>>>> 4e3711f (Final Submission commit)
 
 📁 File: `data/sample_sales_data.csv`  
 📌 Total Rows: 200
