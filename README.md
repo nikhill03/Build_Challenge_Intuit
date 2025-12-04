@@ -18,17 +18,8 @@ build_challenge_python/
 
 ---
 
-This project contains two core programming assignments focused on ** producer-consumer pattern** and **data analysis using appropriate API on CSV** in Python 👨‍💻.  
+This project contains two core programming assignments focused on **producer-consumer pattern** and **data analysis using appropriate API on CSV** in Python 👨‍💻.  
 It demonstrates clean code design, multithreading, CSV ingestion, functional aggregation, and complete unit testing.
-
----
-
-## 📌 Assignments Summary
-
-| Assignment       | Description                                                | Core Concepts                             |
-| ---------------- | ---------------------------------------------------------- | ----------------------------------------- |
-| **Assignment 1** | Producer–Consumer Queue with Thread Synchronization        | `threading`, `Condition`, blocking queue  |
-| **Assignment 2** | CSV-based Sales Data Analysis using Functional Programming | `csv`, grouping, aggregations, statistics |
 
 ---
 
