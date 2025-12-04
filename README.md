@@ -100,19 +100,6 @@ Process and analyze a structured CSV sales dataset to compute business insights 
 
 ---
 
-##  Analytics Functions Implemented
-
-| Method                         | Purpose                             |
-| ------------------------------ | ----------------------------------- |
-| `total_revenue()`              | Overall revenue across dataset      |
-| `revenue_by_region()`          | Which region performs best          |
-| `units_sold_by_product()`      | Demand statistics                   |
-| `revenue_by_salesperson()`     | Salesperson performance leaderboard |
-| `top_n_products_by_revenue(n)` | Best revenue-contributing products  |
-| `average_order_value()`        | Revenue per order                   |
-
----
-
 ##  Run Assignment 2
 
 ```bash
