@@ -173,6 +173,5 @@ source .task/bin/activate
 ## 👤 Author
 
 **Nikhil Kumar**  
-Software Engineer | Python Developer
 
 ---
