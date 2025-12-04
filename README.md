@@ -13,7 +13,6 @@ build_challenge_python/
 ├── data/
 │   └── sample_sales_data.csv
 └── README.md
-
 ```
 
 ---
@@ -31,7 +30,6 @@ It demonstrates clean code design, multithreading, CSV ingestion, functional agg
 
 Implement a **bounded queue** and **thread-safe producer-consumer architecture** using Python concurrency.
 
-<<<<<<< HEAD
 ### Key Skills Demonstrated
 =======
 ### 🧩 Workflow Assignment 1 — Producer–Consumer System (Flow)
